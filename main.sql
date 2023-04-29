@@ -600,8 +600,6 @@ CREATE TABLE TRANSFERS
 
 \copy CAREGIVERS from PROGRAM 'gzip -dc CAREGIVERS.csv.gz' delimiter ',' csv header NULL '';
 
-\copy CHARTEVENTS from PROGRAM 'gzip -dc CHARTEVENTS.csv.gz' delimiter ',' csv header NULL '';
-
 
 \copy CPTEVENTS from PROGRAM 'gzip -dc CPTEVENTS.csv.gz' delimiter ',' csv header NULL '';
 
